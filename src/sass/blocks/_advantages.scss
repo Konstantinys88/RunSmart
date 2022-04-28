@@ -11,9 +11,8 @@
     }
     &__wrapper {
         display: flex;
-
+        justify-content: space-between;
     }
-
     &__icons {
         width: 905px;
         margin-top: 65px;
