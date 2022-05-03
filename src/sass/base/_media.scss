@@ -38,6 +38,17 @@
             font-size: 20px;
         }
     }
+    .title {
+        text-align: center;
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin:  0 auto;
+    }
 }
 @media (max-width: 767px) {
     .promo {
