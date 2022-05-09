@@ -1,0 +1,35 @@
+.reviews {
+    padding: 0 0 71px 0;
+    &__block{
+        display: flex;
+        justify-content: center;
+    }
+    &__img {
+        margin-top: 70px;
+        padding-right: 62px;
+    }
+    &__name {
+        margin-top: 70px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__subname {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__info {
+        width: 656px;
+        min-height: 165px;
+        margin-top: 19px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+    &__hr {
+        margin-top: 50px;
+        border-bottom: none;
+    }
+}
