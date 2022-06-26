@@ -128,7 +128,7 @@ $(document).ready(function(){
             $('#consultation, #order').fadeOut();
             $('.overlay, #thanks').fadeIn('slow');
 
-            $('form').trigger('redet');
+            $('form').trigger('reset');
         });
         return false;
     });
